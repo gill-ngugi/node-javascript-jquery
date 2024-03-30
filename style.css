@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .header-section {
+    background-image: url('./assets/backgrounds/h_img.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #FFF;
+    /* align-content: center;
+    display: flex; */
+  }
+
+  .stacked-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+  }
+  .stacked-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    /* background-color: #f8f9fa;
+    border: 1px solid #dee2e6; */
+    border-radius: 5px;
+    text-align: center;
+  }
