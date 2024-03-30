@@ -1,9 +1,4 @@
 $(document).ready(function () {
-    // // Toggle descriptions
-    // $('.icons-section i').click(function () {
-    //     $(this).toggleClass('active').siblings().removeClass('active');
-    // });
-
     // Show description on icon click
     $('.imageA').click(function () {
         var description = $(this).data('description');
