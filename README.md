@@ -26,3 +26,13 @@ Setup Instructions
 4. The CSS styles used in the project are in the styles.css file.
 5. Launch the index.html file in the browser, for example Google Chrome.
 6. Alternatively, you can view the project which is deployed to the gh-pages via this link: 
+
+GIT Setup
+-----------
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/gill-ngugi/node-javascript-jquery
+git push -u origin main
+
